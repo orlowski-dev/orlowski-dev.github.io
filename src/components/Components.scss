@@ -19,15 +19,19 @@
         }
 
         span {
-            padding: 5px 10px;
+            padding: 5px 15px;
             font-size: 0.8125rem;
 
             &.reactjs {
-                background-color: #61DBFB;
+                background-color: var(--react);
             }
 
             &.js {
-                background-color: #F0DB4F;
+                background-color: var(--js);
+            }
+
+            &.ts {
+                background-color: var(--ts);
             }
         }
     }

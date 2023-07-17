@@ -7,11 +7,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
+
   --primary-blue: #1e90ff;
   --bg-light: #f1f2f6;
   --gray-1: #a4b0be;
   --gray-2: #dfe4ea;
   --text-color: #0D1117;
+  --danger: #ff4757;
+  --react: #61DBFB;
+  --js: #F0DB4F;
+  --ts: #007acc;
 }
 
 * {
@@ -43,6 +48,24 @@ h3 {
   }
 }
 
+.ib-span {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 0.8125rem;
+
+  &.s-reactjs {
+    background-color: var(--react);
+  }
+
+  &.s-ts {
+    background-color: var(--ts);
+  }
+
+  &.s-danger {
+    background-color: var(--danger);
+  }
+}
+
 button {
   background-color: var(--bg-light);
   font-size: 0.875rem;
@@ -63,7 +86,7 @@ button.b-with-icon {
   gap: 8px;
   color: var(--text-color);
   border: 1px solid var(--gray-2);
-  padding: 6px 12px;
+  padding: 5px 15px;
   transition: border-color .1s ease-in;
   user-select: none;
 
@@ -79,6 +102,23 @@ button.b-with-icon {
       color: var(--primary-blue);
       height: 18px;
     }
+  }
+}
+
+.g {
+  display: grid;
+
+  &.c2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+.fl {
+  display: flex;
+
+  &.fe {
+    justify-content: flex-end;
   }
 }
 
@@ -132,6 +172,20 @@ footer {
   padding: 25px;
   max-width: 969px;
   margin: 0 auto;
+}
+
+footer {
+  p {
+    margin-bottom: 5px;
+  }
+
+  .quick-access {
+    margin-top: 25px;
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
 }
 
 @media screen and (min-width: 600px) {

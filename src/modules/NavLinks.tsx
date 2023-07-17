@@ -1,5 +1,5 @@
 import { frontendMentorIcon, githubIcon, sendIcon } from '../assets'
-import { Button, Link } from '../components/Compoments'
+import { Link } from '../components/Compoments'
 
 export const NavLinks = () => (
     <div className="nav-links">
@@ -13,8 +13,9 @@ export const NavLinks = () => (
             content='frontend_mentor'
             icon={frontendMentorIcon}
         />
-        <Button
-            content='contact'
+        <Link
+            to='mailto:orlowski.dev@gmail.com'
+            content='orlowski.dev@gmail.com'
             icon={sendIcon}
         />
     </div>

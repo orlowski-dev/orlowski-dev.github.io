@@ -4,6 +4,7 @@ export { default as frontendMentorIcon } from './svg/frontend_mentor.svg'
 export { default as sendIcon } from './svg/send.svg'
 export { default as globeIcon } from './svg/globe.svg'
 export { default as codeIcon } from './svg/code.svg'
+export { default as externalLink } from './svg/external-link.svg'
 
 // projects preview images
 export { default as dcToDoImage } from './images/projects/dc-todo.png'
