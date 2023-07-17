@@ -1,0 +1,45 @@
+.project-card-component {
+    padding: 12px;
+    border: 1px solid var(--gray-2);
+    align-self: flex-start;
+
+    img {
+        width: 100%;
+    }
+
+    .tags-container {
+        margin-top: 5px;
+        display: flex;
+        gap: 5px;
+
+        img {
+            height: 27px;
+            width: 27px;
+            background-color: white;
+        }
+
+        span {
+            padding: 5px 10px;
+            font-size: 0.8125rem;
+
+            &.reactjs {
+                background-color: #61DBFB;
+            }
+
+            &.js {
+                background-color: #F0DB4F;
+            }
+        }
+    }
+
+    h2 {
+        margin-top: 25px;
+    }
+
+    .links {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
