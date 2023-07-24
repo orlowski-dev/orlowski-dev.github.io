@@ -1,4 +1,4 @@
-import { ageCalculatorApp, dcToDoImage, expensesChart, interactivePricingComponent, makerPreLunch, newsletterSignUp, officelite } from "../assets";
+import { ageCalculatorApp, dcToDoImage, expensesChart, githubUserSearch, interactivePricingComponent, makerPreLunch, newsletterSignUp, officelite } from "../assets";
 
 export interface IProjectCardData {
     readonly projectName: string,
@@ -11,6 +11,14 @@ export interface IProjectCardData {
 }
 
 export const projectCardData = [
+    {
+        projectName: 'Github user search app',
+        sourceUrl: 'https://github.com/orlowski-dev/fm-github-user-search-app',
+        previewUri: 'https://orlowski-dev.github.io/fm-github-user-search-app/',
+        previewImagePath: githubUserSearch,
+        tags: ['reactjs', 'ts'],
+        fmChallenge: true,
+    },
     {
         projectName: 'Marker pre-lunch landing page',
         sourceUrl: 'https://github.com/orlowski-dev/fm-maker-pre-lunch',

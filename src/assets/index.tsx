@@ -14,6 +14,7 @@ export { default as interactivePricingComponent } from './images/projects/fm-int
 export { default as makerPreLunch } from './images/projects/fm-maker-pre-lunch.png'
 export { default as newsletterSignUp } from './images/projects/fm-newsletter-sign-up-with-success-message.png'
 export { default as officelite } from './images/projects/fm-officelite-coming-soon.png'
+export { default as githubUserSearch } from './images/projects/fm-github-user-search-app.png'
 
 // logos
 export { default as dcLogo } from './images/dc-logo.png'
