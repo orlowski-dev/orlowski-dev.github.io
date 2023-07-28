@@ -1,4 +1,4 @@
-import { ageCalculatorApp, dcToDoImage, expensesChart, githubUserSearch, interactivePricingComponent, makerPreLunch, newsletterSignUp, officelite } from "../assets";
+import { ageCalculatorApp, clockApp, dcToDoImage, expensesChart, githubUserSearch, interactivePricingComponent, makerPreLunch, newsletterSignUp, officelite } from "../assets";
 
 export interface IProjectCardData {
     readonly projectName: string,
@@ -12,11 +12,19 @@ export interface IProjectCardData {
 
 export const projectCardData = [
     {
+        projectName: 'Clock App',
+        sourceUrl: 'https://github.com/orlowski-dev/fm-clock-app',
+        previewUri: 'https://fm-clock-app-orlowski-dev.vercel.app/',
+        previewImagePath: clockApp,
+        tags: ['reactjs', 'ts', 'api'],
+        fmChallenge: true,
+    },
+    {
         projectName: 'Github user search app',
         sourceUrl: 'https://github.com/orlowski-dev/fm-github-user-search-app',
         previewUri: 'https://orlowski-dev.github.io/fm-github-user-search-app/',
         previewImagePath: githubUserSearch,
-        tags: ['reactjs', 'ts'],
+        tags: ['reactjs', 'ts', 'api'],
         fmChallenge: true,
     },
     {
