@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.main p span {
+  color: #acacac;
+  font-style: italic;
+}
+
+@media screen and (max-width: '660px') {
+  .main {
+    padding: 60px;
+  }
+}
